@@ -86,7 +86,7 @@ function UpdateExperience({ id, idExp, experience, fetchExperiences }) {
         <Modal.Header closeButton>
           <Modal.Title>Aggiorna Esperienza</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className='p-5'>
           <Form>
             {/* Campo Ruolo */}
             <Form.Group className='mb-3'>

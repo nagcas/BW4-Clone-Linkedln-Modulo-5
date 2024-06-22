@@ -90,7 +90,7 @@ function UpdateProfile({ profile, fetchProfile }) {
         <Modal.Header closeButton>
           <Modal.Title>Aggiorna Profilo Utente</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className='p-5'>
           <Form>
             {/* Campo Nome */}
             <Form.Group className='mb-3'>
