@@ -1,0 +1,50 @@
+/*
+  Style css
+  Component: Global
+*/
+
+
+.add__btn {
+  background-color: #fff;
+  border-radius: 30px;
+  height: 35px;
+  padding: 0 20px;
+  font-weight: 600;
+  color: #0a66c2;
+  border-color: #0a66c2;
+}
+
+.add__btn:hover {
+  border-color: #004182;
+  background-color: #EBF4FD;
+}
+
+.btn__altro {
+  background-color: #fff;
+  color: #000;
+  border-color: #353535;
+  border-radius: 30px;
+  height: 35px;
+  padding: 0 20px;
+  font-weight: 600;
+}
+
+.btn__altro:hover {
+  border-color: #181818;
+  background-color: #F3F3F3;
+}
+
+.btn_back {
+  background-color: #fff;
+  border-radius: 30px;
+  height: 50px;
+  padding: 10px 30px;
+  font-weight: 600;
+  color: #0a66c2;
+  border-color: #0a66c2;
+}
+
+.btn_back:hover {
+  border-color: #004182;
+  background-color: #EBF4FD;
+}

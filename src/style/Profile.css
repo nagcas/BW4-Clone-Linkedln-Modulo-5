@@ -1,0 +1,177 @@
+/*
+  Style css
+  Component: Profile
+*/
+
+
+.content__card {
+  margin-top: 50px;
+  position: relative;
+}
+
+.content__profile {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.profile__bg img {
+  padding: 0;
+  width: 100%;
+  height: 15em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.profile__image {
+  border: 6px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 130px;
+  left: 50px;
+  width: 150px;
+  aspect-ratio: 1/1;
+}
+
+.image__user {
+  position: inherit;
+  top: -2px;
+  left: -12px;
+  min-width: 162px;
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1.15 / 1;
+  z-index: 1;
+}
+
+.user__detail {
+  text-align: start;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.education {
+  font-weight: 600;
+  font-size: 15px;
+  list-style: none;
+}
+
+.education img {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+ 
+.contact-info {
+  color: #0a66c2;
+  font-weight: 500;
+}
+
+.content__info_1 {
+  background-color: #DDE7F1;
+  border-radius: 10px;
+}
+
+.content__info_2 {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.connections {
+  color: #0a66c2;
+  font-weight: 500;
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+
+.profile__button {
+  background-color: #0a66c2;
+  border-radius: 30px;
+  
+  height: 35px;
+  padding: 0 20px;
+  font-weight: 600;
+}
+
+.open__to__btn:hover {
+  background-color: #004182;
+}
+
+.content__consigliato,
+.content__risorse,
+.content__attività,
+.content__analisi,
+.content__experience {
+  margin-top: 10px;
+}
+
+.content__experience {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.content__riepilogo {
+  background-color: #F8FAFD;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.progress__bar.progress {
+  width: 100%;
+  height: 6px;
+  background-color: #56687A;
+}
+
+.content__info__profile {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.link__analisi {
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.link__analisi:hover {
+  background-color: #F3F3F3;
+  height: 41px;
+  cursor: pointer;
+}
+
+.upgrade__profile, 
+.add__experiences {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #000;
+  border: 0;
+}
+
+.upgrade__profile:hover,
+.add__experiences:hover {
+  background-color: #F3F3F3;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.select__user:hover {
+  cursor: pointer;
+  background-color: #F3F3F3;
+}
+
+
+
+
