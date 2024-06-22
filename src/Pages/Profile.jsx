@@ -84,13 +84,13 @@ function Profile() {
         </div>
         <Row className='user__detail'>
           <Col xs={12} md={8}>
-            <h4 className='name mb-0 justify-content-start'>
+            <h4 className='name mx-3 mb-0 justify-content-start p-2'>
               {profile.name} {profile.surname} • <span className='connections fs-4'>{profile.username}</span>
             </h4>
-            <p className='my-0 occupation'>{profile.title}</p>
-            <p className='my-0 location text-muted'>{profile.area} • <span className='connections'>Informazioni di contatto</span></p>
+            <p className='mx-3 my-0 occupation p-2'>{profile.title}</p>
+            <p className='mx-3 my-0 location text-muted p-2'>{profile.area} • <span className='connections'>Informazioni di contatto</span></p>
 
-            <p className='my-2 connections'>
+            <p className='mx-3 my-1 connections p-2'>
               5 collegamenti
             </p>
             <div className='d-column justify-content-start'>
