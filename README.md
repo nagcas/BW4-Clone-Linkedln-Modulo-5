@@ -1,7 +1,7 @@
 # Clone di Linkedln Project
 ## Build Week 4 - React
 
-### Grupo di Lavoro
+### Gruppo di Lavoro
   
 ```
 1. Giuseppe Mazzilli
